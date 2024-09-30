@@ -10,7 +10,7 @@ public class PemilihanHari08 {
         System.out.print("Input day name: ");
         dayName = sc.nextLine();
 
-        switch (dayName.toLowerCase()) {
+        switch (dayName) {
             case "monday":
             case "tuesday":
             case "wednesday":
@@ -25,7 +25,7 @@ public class PemilihanHari08 {
             default:
                 dayType = "invalid day name";
         }
-        System.out.println(dayName + "is a" + dayType);
+        System.out.println(dayName + " is a " + dayType);
 
         sc.close();
     }
